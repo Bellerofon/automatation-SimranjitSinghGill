@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe("Login", () => {
+describe("Testcases", () => {
     it("Login user", () =>{
       cy.visit('http://localhost:3000')
       cy.get("h2").should("have.text","Login") // Correct page
