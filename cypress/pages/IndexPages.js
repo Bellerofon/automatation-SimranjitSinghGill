@@ -3,8 +3,8 @@
 // Elements
 
 const loginPageTitle = 'Testers Hotel'
-const usernameTextField = 'nth-child(1) > input'
-const passwordTextField = 'nth-child(2) > input'
+const usernameTextField = ':nth-child(1) > input'
+const passwordTextField = ':nth-child(2) > input'
 const submitBtn = '.btn'
 const formLabel = 'Login'
 
